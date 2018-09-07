@@ -43,7 +43,7 @@ export default class FilterObject extends Component {
   render() { 
     return (
       <div className="puzzleBox filterObjectPB">
-        <h3> Filter Object </h3>
+        <h4> Filter Object </h4>
         <span className="puzzleText"> 
           Original: { JSON.stringify(this.state.employees, null, 10) } </span>
         <input className="inputLine" 

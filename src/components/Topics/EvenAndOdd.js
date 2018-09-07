@@ -37,7 +37,7 @@ export default class EvenAndOdd extends Component {
   render() { 
   return (
     <div className="puzzleBox evenAndOddPB">
-      <h3 className=""> Evens And Odds </h3>
+      <h4 className=""> Evens And Odds </h4>
       <input className="inputLine" 
       onChange={(e) => this.handleChange(e.target.value)}
       /> 

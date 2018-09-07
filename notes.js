@@ -24,7 +24,6 @@ MEMORIZE:
 onChange={(e) => this.handleChange(e.target.value)}
 onClick={() => this.assignEvensAndOdds(this.state.userInput)}
 
-
 completed up to step 5 
 Resume filterString 
 
