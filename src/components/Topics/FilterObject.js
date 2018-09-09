@@ -41,6 +41,11 @@ export default class FilterObject extends Component {
 
 
   render() { 
+
+    let handleChange = (val) => {
+      this.setState({ userInput: val })
+    }
+
     return (
       <div className="puzzleBox filterObjectPB">
         <h4> Filter Object </h4>
